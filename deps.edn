@@ -2,5 +2,5 @@
  {:kaocha
   {:extra-deps
    {lambdaisland/kaocha
-    {:git/sha "e94d84c9232199c17f067e1d3d61c198759fd8d5",
-     :git/url "https://github.com/lambdaisland/kaocha.git"}}}}}
+    {:git/sha "0851dea92f965f4722d5057ef19eebbbbb02e924",
+     :git/url "https://github.com/frenchy64/kaocha.git"}}}}}
