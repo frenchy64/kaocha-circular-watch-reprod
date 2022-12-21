@@ -70,3 +70,14 @@ clojure.lang.ExceptionInfo: Circular dependency between circular2 and circular1
 $ echo $?
 2
 ```
+
+## Test case
+
+1. start kaocha with circular dependencies.
+- a compilation error should occur
+2. comment out `(:require circular2)` in `src/circular1.clj`.
+- the tests should run
+3. undo step 2
+- a compilation error should occur
+4. comment out `(:require circular1)` in `src/circular2.clj`.
+- the tests should run
